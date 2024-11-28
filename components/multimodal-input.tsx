@@ -30,6 +30,16 @@ import { Textarea } from './ui/textarea';
 
 const suggestedActions = [
   {
+    title: 'Brainstorm funny',
+    label: 'hackathon ideas',
+    action: 'Can you brainstorm funny hackathon ideas for me?',
+  },
+  {
+    title: 'Hype me up',
+    label: 'for my interview tomorrow',
+    action: 'Can you write something hype to get me ready for my interview tomorrow?',
+  },
+  {
     title: 'Help me come up with',
     label: 'a chaotic group chat name',
     action: 'Can you help me brainstorm a chaotic and funny group chat name?',
@@ -45,11 +55,6 @@ const suggestedActions = [
     action: 'What’s the funniest way to describe shipping cup soup in a convo?',
   },
   {
-    title: 'Hype me up',
-    label: 'for my interview tomorrow',
-    action: 'Can you write something hype to get me ready for my interview tomorrow?',
-  },
-  {
     title: 'Help me roast',
     label: 'my friend’s terrible playlist',
     action: 'Can you help me come up with a funny roast for my friend’s terrible playlist?',
@@ -63,11 +68,6 @@ const suggestedActions = [
     title: 'Write me a',
     label: 'spicy reaction meme',
     action: 'Can you help me come up with a spicy and hilarious reaction meme?',
-  },
-  {
-    title: 'Brainstorm a funny',
-    label: 'hackathon team name',
-    action: 'Can you brainstorm a funny hackathon team name for me?',
   },
   {
     title: 'Come up with',
