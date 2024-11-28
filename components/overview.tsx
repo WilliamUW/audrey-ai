@@ -33,8 +33,8 @@ export const Overview = () => {
         <p>
           Whether you need advice on hackathons (21 wins, bruh 😱), tech
           internships (NASA lasers and drones, anyone? 🛰️), or just some
-          meme-worthy chaos, I’m here to help with all the "😭😭😭" and "uwu
-          vibes" you could ever want. LET’S GOOO!! 😈
+          meme-worthy chaos, I am here to help with all the 😭😭😭 and uwu
+          vibes you could ever want. LETS GOOO!! 😈
         </p>
         <p>
           See the source code{" "}
