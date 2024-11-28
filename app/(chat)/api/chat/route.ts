@@ -95,6 +95,8 @@ export async function POST(request: Request) {
     messages: coreMessages,
     maxSteps: 5,
     experimental_activeTools: allTools,
+    temperature: 0.98,
+    topP: 0.99,
     tools: {
       getWeather: {
         description: 'Get the current weather at a location',
