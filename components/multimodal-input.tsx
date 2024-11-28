@@ -30,16 +30,57 @@ import { Textarea } from './ui/textarea';
 
 const suggestedActions = [
   {
-    title: 'What is the weather',
-    label: 'in San Francisco?',
-    action: 'What is the weather in San Francisco?',
+    title: 'Help me come up with',
+    label: 'a chaotic group chat name',
+    action: 'Can you help me brainstorm a chaotic and funny group chat name?',
   },
   {
-    title: 'Help me draft an essay',
-    label: 'about Silicon Valley',
-    action: 'Help me draft a short essay about Silicon Valley',
+    title: 'Draft a fun caption',
+    label: 'for my mountain hike pic',
+    action: 'Can you draft a fun and quirky caption for my mountain hike photo?',
+  },
+  {
+    title: 'What’s the deal with',
+    label: 'shipping cup soup?',
+    action: 'What’s the funniest way to describe shipping cup soup in a convo?',
+  },
+  {
+    title: 'Hype me up',
+    label: 'for my interview tomorrow',
+    action: 'Can you write something hype to get me ready for my interview tomorrow?',
+  },
+  {
+    title: 'Help me roast',
+    label: 'my friend’s terrible playlist',
+    action: 'Can you help me come up with a funny roast for my friend’s terrible playlist?',
+  },
+  {
+    title: 'Suggest a karaoke song',
+    label: 'for absolute chaos',
+    action: 'What’s the most chaotic karaoke song I can sing?',
+  },
+  {
+    title: 'Write me a',
+    label: 'spicy reaction meme',
+    action: 'Can you help me come up with a spicy and hilarious reaction meme?',
+  },
+  {
+    title: 'Brainstorm a funny',
+    label: 'hackathon team name',
+    action: 'Can you brainstorm a funny hackathon team name for me?',
+  },
+  {
+    title: 'Come up with',
+    label: 'a random uwu message',
+    action: 'Can you write a random uwu-style message for fun?',
+  },
+  {
+    title: 'What’s the best way',
+    label: 'to bribe a sponsor?',
+    action: 'What’s the funniest and most effective way to sweet-talk a sponsor?',
   },
 ];
+
 
 export function MultimodalInput({
   chatId,
