@@ -9,7 +9,6 @@ import type { Vote } from "@/lib/db/schema";
 
 import type { UIBlock } from "./block";
 import { DocumentToolCall, DocumentToolResult } from "./document";
-import { SparklesIcon } from "./icons";
 import { Markdown } from "./markdown";
 import { MessageActions } from "./message-actions";
 import { PreviewAttachment } from "./preview-attachment";
@@ -44,7 +43,13 @@ export const PreviewMessage = ({
       >
         {message.role === "assistant" && (
           <div className="size-8 flex items-center justify-center ">
-            <Image src="/images/audrey.png" className="rounded-xl" alt="audrey"  width={128} height={128} />
+            <Image
+              src="/images/audrey.png"
+              className="rounded-xl"
+              alt="audrey"
+              width={128}
+              height={128}
+            />
           </div>
         )}
 
@@ -171,7 +176,13 @@ export const ThinkingMessage = () => {
         )}
       >
         <div className="size-8 flex items-center rounded-full justify-center ring-1 shrink-0 ring-border">
-          <SparklesIcon size={14} />
+          <Image
+            src="/images/audrey.png"
+            className="rounded-xl"
+            alt="audrey"
+            width={128}
+            height={128}
+          />
         </div>
 
         <div className="flex flex-col gap-2 w-full">
