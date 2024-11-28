@@ -45,29 +45,9 @@ const suggestedActions = [
     action: 'Can you help me brainstorm a chaotic and funny group chat name?',
   },
   {
-    title: 'Draft a fun caption',
-    label: 'for my mountain hike pic',
-    action: 'Can you draft a fun and quirky caption for my mountain hike photo?',
-  },
-  {
-    title: 'What’s the deal with',
-    label: 'shipping cup soup?',
-    action: 'What’s the funniest way to describe shipping cup soup in a convo?',
-  },
-  {
-    title: 'Help me roast',
-    label: 'my friend’s terrible playlist',
-    action: 'Can you help me come up with a funny roast for my friend’s terrible playlist?',
-  },
-  {
     title: 'Suggest a karaoke song',
     label: 'for absolute chaos',
     action: 'What’s the most chaotic karaoke song I can sing?',
-  },
-  {
-    title: 'Write me a',
-    label: 'spicy reaction meme',
-    action: 'Can you help me come up with a spicy and hilarious reaction meme?',
   },
   {
     title: 'Come up with',
